@@ -1,0 +1,131 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    border: 1px solid #000;
+background-color: rgba(0, 0, 0, 0.756);
+}
+.carousel {
+  margin-bottom: 4rem;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  margin: 40px;
+}
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+#h1-slide{
+ color: white;
+}
+#h2-slide{
+  color: white;
+}
+.carousel-item {
+  height: 32rem;
+  flex: 0 0 100%;
+    transition: transform 0.5s ease;
+}
+#header {
+    height: 10vh;
+    display: flex;
+    width: 100%;
+justify-content: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-esquerda {
+    background-color:  rgba(0, 0, 0, 0.756);
+}
+
+.header-direita {
+    background-color: rgba(0, 0, 0, 0.756);
+    min-height: 100%;
+    align-self: right;
+    flex-grow: 1;
+    margin-right: 0;
+    justify-content:flex-end;
+    display: flex;
+    flex-direction: row;
+    padding:10px
+}
+
+.button{ 
+    margin-left: 50px;
+    background-color: rgba(0, 0, 0, 0.756);
+    border: 2px solid white;
+    padding: 12px;
+    margin-right: 10px;
+}
+.ahref{
+  color: white;
+  text-decoration: none;
+}
+
+#h2-2slide{
+  color: white;
+
+}
+.legenda{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  color: white;
+  text-shadow: 2px 4px rgba(0, 0, 0, 0.5)
+}
+#minha-foto{
+  position: absolute;
+  left: 0px;
+  margin-top: 80px;
+  width: 800px;
+  height:500px;
+}
+
+#ul-abilities{
+  margin-top: 80px;
+color: white;
+width: 500px;
+height: 800px;
+text-shadow: 2px 4px rgba(0, 0, 0, 0.5);
+margin-left: 60%;
+}
+.slide2{ 
+  background-color: #3d3d3d;
+  background-size: 1400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("habilidades.jpeg");
+}
+.slide3{
+  background-color: #3d3d3d;
+  background-size: 1400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("3-slide.jpg");
+}
+.colunas {
+margin: 10px;
+}
+
+.cards{ 
+
+}
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }

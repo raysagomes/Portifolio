@@ -1,0 +1,18 @@
+          <div class="carousel">
+                <div class="carousel-item">
+<button id="prevButton">Previous</button>
+<button id="nextButton">Next</button>
+
+                    <h1 class="h1-slide"> Welcome, </h1>
+                <h2> Eu sou Raysa, estudante de Ciências da Computação. Fascinada por soluções criativas e inovadoras.</h2>     
+            <img class = "minha-foto" src="minha-foto.png"> </div>
+                <div class="carousel-item">
+                    <img class = "habilidades" src="habilidades.png"> </div>  
+                </div>
+                <div class="carousel-item">
+                    <img src="#"></img>
+                </div>
+                
+ position: absolute;
+    top: 50%;
+    left: 50%;
