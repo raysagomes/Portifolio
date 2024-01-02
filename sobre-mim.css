@@ -1,0 +1,94 @@
+#header {
+    height: 10vh;
+    display: flex;
+    width: 100%;
+justify-content: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-esquerda {
+    background-color:  rgba(0, 0, 0, 0.756);
+}
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    border: 1px solid #000;
+background-color: rgba(0, 0, 0, 0.756);
+}
+.header-direita {
+    background-color: rgba(0, 0, 0, 0.756);
+    min-height: 100%;
+    align-self: right;
+    flex-grow: 1;
+    margin-right: 0;
+    justify-content:flex-end;
+    display: flex;
+    flex-direction: row;
+    padding:10px
+}
+
+.ahref{
+    color: white;
+    text-decoration: none;
+  }
+
+.button{ 
+    margin-left: 50px;
+    background-color: rgba(0, 0, 0, 0.756);
+    border: 2px solid white;
+    padding: 12px;
+    margin-right: 10px;
+}
+
+.sobre-mim{ 
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.sobre-mim-h1{ 
+   align-self: center;
+    color: white;    
+
+}
+
+.ahref{
+    color: white;
+    text-decoration: none;
+  }
+
+  .nav1{ 
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+  
+  }
+
+.p-sobre-mim{
+    text-indent: 20px;
+    font-size:large;
+    color: white;    
+    margin-left: 80px;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 50px;   
+    width: 80%;
+
+}
+
+.handshake {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    margin-right: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}   
+
+.imagem{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
