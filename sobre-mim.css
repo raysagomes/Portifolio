@@ -1,3 +1,10 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    border: 1px solid #000;
+background-color: rgba(0, 0, 0, 0.756);
+}
 #header {
     height: 10vh;
     display: flex;
@@ -8,6 +15,12 @@ font-family: Arial, Helvetica, sans-serif;
 
 .header-esquerda {
     background-color:  rgba(0, 0, 0, 0.756);
+}
+#imagem {
+    width:200px;
+    height:60px;
+    margin-top: 5px;
+    margin-left: 30px;
 }
 .body{
     margin: 0;
@@ -44,14 +57,31 @@ background-color: rgba(0, 0, 0, 0.756);
 .sobre-mim{ 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center; 
     margin-top: 30px;
     margin-bottom: 30px;
-
+    padding: 0 20px; 
+    box-sizing: border-box; 
 }
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 700px;}
+  }
+
 .sobre-mim-h1{ 
    align-self: center;
-    color: white;    
-
+    color: black;    
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    animation-name: mymove;
+    background: yellow;
+    padding: 20px;
+    border-radius: 40px;
+    animation-duration: 5s;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5); 
 }
 
 .ahref{
@@ -70,10 +100,8 @@ background-color: rgba(0, 0, 0, 0.756);
     text-indent: 20px;
     font-size:large;
     color: white;    
-    margin-left: 80px;
     text-align: center;
     margin-top: 30px;
-    margin-right: 50px;   
     width: 80%;
 
 }
@@ -91,4 +119,26 @@ background-color: rgba(0, 0, 0, 0.756);
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+}
+
+.button{ 
+    margin-left: 50px;
+    background-color: rgba(0, 0, 0, 0.756);
+    border: 2px solid white;
+    padding: 12px;
+    margin-right: 10px;
+}
+.ahref{
+  color: white;
+  text-decoration: none;
+}
+.nav1{ 
+    padding: 40px;
+    color: white;
+    text-decoration: none;
+}
+.lista1{
+    color: #000;
+    border: 0px solid black;
+    border-radius: 10px;
 }

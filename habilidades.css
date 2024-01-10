@@ -12,7 +12,12 @@ background-color: rgba(0, 0, 0, 0.756);
 justify-content: center;
 font-family: Arial, Helvetica, sans-serif;
 }
-
+#imagem {
+    width:200px;
+    height:60px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
 .header-esquerda {
     background-color:  rgba(0, 0, 0, 0.756);
 }
@@ -29,13 +34,15 @@ font-family: Arial, Helvetica, sans-serif;
     padding:10px
 }
 
-.button{ 
+.button1{ 
     margin-left: 50px;
     background-color: rgba(0, 0, 0, 0.756);
     border: 2px solid white;
     padding: 12px;
     margin-right: 10px;
 }
+
+
 .ahref{
   color: white;
   text-decoration: none;
@@ -59,10 +66,11 @@ font-family: Arial, Helvetica, sans-serif;
     margin-top: 20px;
     width: 100%;
 }
-#img1{
+.icon{
     width:60%;
     height: 220px;
     margin-bottom: 40px;
+    margin-top: 20px;
 }
 .h1{ 
     margin-top: 60px;
